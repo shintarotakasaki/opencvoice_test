@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 import time
 
 def click_button():
-    driver = webdriver.Ie(executable_path='C:\Program Files\path\IEDriverServer.exe')
+    driver = webdriver.Ie(executable_path='C:\\Program Files\\path\\IEDriverServer.exe')
     driver.get("http://cvoice.intra.tostem.co.jp/n_copq/koujyou/scripts/KoujyouIdx.asp")
     button = driver.find_element(By.XPATH, "//input[@value='納期回答管理']")
     button.click()
